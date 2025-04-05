@@ -30,6 +30,11 @@ export default [
     vercel: "https://recipe-page-nu-lovat.vercel.app/",
   },
   {
+    title: "Stats Preview Card Component",
+    github: "https://github.com/Mr-Muhridd1n/Stats-preview",
+    vercel: "https://stats-preview-gamma-roan.vercel.app/",
+  },
+  {
     title: "Sport Website",
     github: "https://github.com/Mr-Muhridd1n/sport-website",
     vercel: "https://sport-website-coral.vercel.app/",
