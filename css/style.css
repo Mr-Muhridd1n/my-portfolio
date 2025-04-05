@@ -70,8 +70,6 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
   border-radius: 0; /* Radius o'chirildi, to'liq ekranga moslash uchun */
-  margin: 0; /* Margin o'chirildi */
-  padding: 0; /* Padding o'chirildi */
   overflow-x: hidden;
   width: 100%; /* To'liq kenglik */
 }
