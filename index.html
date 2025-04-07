@@ -15,6 +15,28 @@
   </head>
   <body>
     <header class="header">
+      <nav class="navbar">
+        <div class="navbar__container container">
+          <a href="#" class="navbar__logo">My Portfolio</a>
+          <button class="navbar__toggle" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#portfolio" class="navbar__link">Portfolio</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#about" class="navbar__link">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#contact" class="navbar__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="header__container container">
         <h1 class="header__title">Sayfuddinov Muhriddin</h1>
         <p class="header__description">
@@ -25,7 +47,7 @@
     <main class="main">
       <section class="portfolio">
         <div class="portfolio__container container">
-          <ul class="portfolio__list">
+          <ul class="portfolio__list" id="portfolio">
             <template>
               <li class="portfolio__item">
                 <div class="portfolio__content">

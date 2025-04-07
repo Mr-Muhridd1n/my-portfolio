@@ -20,39 +20,52 @@ data.forEach((d, i) => {
   portfolio__list.append(clone);
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const timeSpan = document.getElementById('time');
+document.addEventListener("DOMContentLoaded", () => {
+  const timeSpan = document.getElementById("time");
   const currentYear = new Date().getFullYear();
   timeSpan.textContent = currentYear;
 
   // Portfolio elementlariga animatsiya qo'shish
-  const portfolioItems = document.querySelectorAll('.portfolio__item');
-  const footer = document.querySelector('.footer');
+  const portfolioItems = document.querySelectorAll(".portfolio__item");
+  const footer = document.querySelector(".footer");
 
   portfolioItems.forEach((item, index) => {
-      item.style.setProperty('--order', index);
+    item.style.setProperty("--order", index);
 
-      const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                  entry.target.classList.add('visible');
-                  observer.unobserve(entry.target);
-              }
-          });
-      }, { threshold: 0.1 });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
 
-      observer.observe(item);
+    observer.observe(item);
   });
 
   // Footer uchun animatsiya
-  const footerObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              footerObserver.unobserve(entry.target);
-          }
+  const footerObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          footerObserver.unobserve(entry.target);
+        }
       });
-  }, { threshold: 0.1 });
+    },
+    { threshold: 0.1 }
+  );
 
   footerObserver.observe(footer);
+
+  const navbarToggle = document.querySelector(".navbar__toggle");
+  const navbarMenu = document.querySelector(".navbar__menu");
+
+  navbarToggle.addEventListener("click", () => {
+    navbarMenu.classList.toggle("active");
+  });
 });
