@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "My Team",
+    github: "https://github.com/Mr-Muhridd1n/MyTeam",
+    vercel: "https://my-team-dun.vercel.app/",
+  },
+  {
     title: "Parfume",
     github: "https://github.com/Mr-Muhridd1n/Parfume",
     vercel: "https://parfume-snowy.vercel.app/",
