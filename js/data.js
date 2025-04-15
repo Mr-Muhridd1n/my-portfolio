@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Tech Book club",
+    github: "https://github.com/Mr-Muhridd1n/tech-book-club-landing-page",
+    vercel: "https://tech-book-club-landing-page-wheat.vercel.app/",
+  },
+  {
     title: "Simple page portfolio",
     github: "https://github.com/Mr-Muhridd1n/single-page-design-portfolio",
     vercel: "https://single-page-design-portfolio-bice.vercel.app/",
