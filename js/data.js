@@ -5,6 +5,16 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Namanganliklar",
+    github: "https://github.com/Mr-Muhridd1n/namanganliklar",
+    vercel: "https://namanganliklar-delta.vercel.app/",
+  },
+  {
+    title: "Stast preview responsive",
+    github: "https://github.com/Mr-Muhridd1n/stast-preview-responsive",
+    vercel: "https://stast-preview-responsive.vercel.app/",
+  },
+  {
     title: "Tech Book club",
     github: "https://github.com/Mr-Muhridd1n/tech-book-club-landing-page",
     vercel: "https://tech-book-club-landing-page-wheat.vercel.app/",
