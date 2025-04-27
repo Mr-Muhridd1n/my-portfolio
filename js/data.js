@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Finsweet Agency",
+    github: "https://github.com/Mr-Muhridd1n/Finsweet-agency",
+    vercel: "https://finsweet-agency-beta.vercel.app/",
+  },
+  {
     title: "Namanganliklar",
     github: "https://github.com/Mr-Muhridd1n/namanganliklar",
     vercel: "https://namanganliklar-delta.vercel.app/",
