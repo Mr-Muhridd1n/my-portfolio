@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Music Player",
+    github: "https://github.com/Mr-Muhridd1n/5---oy-4---dars-music-player",
+    vercel: "https://5-oy-4-dars-music-player.vercel.app/",
+  },
+  {
     title: "Finsweet Agency",
     github: "https://github.com/Mr-Muhridd1n/Finsweet-agency",
     vercel: "https://finsweet-agency-beta.vercel.app/",
