@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Video player",
+    github: "https://github.com/Mr-Muhridd1n/video_player",
+    vercel: "https://video-player-smoky.vercel.app/",
+  },
+  {
     title: "Music Player",
     github: "https://github.com/Mr-Muhridd1n/5---oy-4---dars-music-player",
     vercel: "https://5-oy-4-dars-music-player.vercel.app/",
