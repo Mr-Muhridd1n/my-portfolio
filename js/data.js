@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Travels site",
+    github: "https://github.com/Mr-Muhridd1n/travels-site",
+    vercel: "https://travels-site-two.vercel.app/",
+  },
+  {
     title: "Video player",
     github: "https://github.com/Mr-Muhridd1n/video_player",
     vercel: "https://video-player-smoky.vercel.app/",
