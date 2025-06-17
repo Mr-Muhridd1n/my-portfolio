@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Sweets website",
+    github: "https://github.com/Mr-Muhridd1n/product-list.git",
+    vercel: "https://product-list-ruddy-five.vercel.app/",
+  },
+  {
     title: "Uzum clone",
     github: "https://github.com/Mr-Muhridd1n/uzum-clone",
     vercel: "https://uzum-clone-phi.vercel.app/",
