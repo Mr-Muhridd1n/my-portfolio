@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "RANDOM USER GENERATOR",
+    github: "https://github.com/Mr-Muhridd1n/RANDOM-USER-GENERATOR",
+    vercel: "https://random-user-generator-roan.vercel.app/",
+  },
+  {
     title: "Sweets website",
     github: "https://github.com/Mr-Muhridd1n/product-list.git",
     vercel: "https://product-list-ruddy-five.vercel.app/",
