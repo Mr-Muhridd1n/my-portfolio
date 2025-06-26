@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "MyBooks-App",
+    github: "https://github.com/Mr-Muhridd1n/MyBooks-App",
+    vercel: "https://my-books-app-beta.vercel.app/",
+  },
+  {
     title: "RANDOM USER GENERATOR",
     github: "https://github.com/Mr-Muhridd1n/RANDOM-USER-GENERATOR",
     vercel: "https://random-user-generator-roan.vercel.app/",
