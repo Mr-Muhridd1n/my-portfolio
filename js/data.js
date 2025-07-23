@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Snapspire",
+    github: "https://github.com/Mr-Muhridd1n/Snapspire",
+    vercel: "https://snapspire.vercel.app",
+  },
+  {
     title: "Photo Site",
     github: "https://github.com/Mr-Muhridd1n/PhotoSite",
     vercel: "https://photo-site-five.vercel.app/",
