@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Dessert",
+    github: "https://github.com/Mr-Muhridd1n/Dessert",
+    vercel: "https://dessert-sigma.vercel.app/",
+  },
+  {
     title: "7-Oy imtihon",
     github: "https://github.com/Mr-Muhridd1n/7-oy_imtihon",
     vercel: "https://7-oy-imtihon-sage.vercel.app/",
