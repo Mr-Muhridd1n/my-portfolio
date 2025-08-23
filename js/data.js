@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Todo app",
+    github: "https://github.com/Mr-Muhridd1n/todo-App",
+    vercel: "https://todo-app-eosin-three-57.vercel.app",
+  },
+  {
     title: "Dessert",
     github: "https://github.com/Mr-Muhridd1n/Dessert",
     vercel: "https://dessert-sigma.vercel.app/",
