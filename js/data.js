@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "devfinder",
+    github: "https://github.com/Mr-Muhridd1n/devfinder",
+    vercel: "https://devfinder-nu-eight.vercel.app/",
+  },
+  {
     title: "Todo app",
     github: "https://github.com/Mr-Muhridd1n/todo-App",
     vercel: "https://todo-app-eosin-three-57.vercel.app",
