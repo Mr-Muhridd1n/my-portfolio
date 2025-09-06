@@ -5,6 +5,11 @@ export default [
   //   vercel: "",
   // },
   {
+    title: "Healthy Recipe Finder",
+    github: "https://github.com/Mr-Muhridd1n/Healthy-Recipe-Finder",
+    vercel: "https://healthy-recipe-finder-tau.vercel.app/",
+  },
+  {
     title: "devfinder",
     github: "https://github.com/Mr-Muhridd1n/devfinder",
     vercel: "https://devfinder-nu-eight.vercel.app/",
